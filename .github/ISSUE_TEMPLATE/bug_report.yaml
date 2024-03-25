@@ -1,0 +1,30 @@
+name: Bug报告 ‖ Bug Report
+description: 用于报告常规Bug ‖ Used to Report General Bugs
+title: "[Bug]: "
+labels: ["bug"]
+body: 
+  - type: dropdown
+    attributes: 
+      label: 产品 ‖ Product
+      options: 
+        - Install Kali Linux Script for Termux
+        - KMS Server
+        - BingWallpaper Get
+        - 二维码工具箱 ‖ QRCodeBox
+        - 验证器 ‖ Authenticator
+        - Quick Reference
+        - JumpCard
+    validations:
+      required: true
+      
+  - type: input
+    attributes: 
+      label: 操作系统 ‖ Operation System
+      description: 请详细填写你遇到问题时使用的操作系统，如Windows 11 23H2或者Android 14 ‖ Please fill in the operating system you use when you encounter problems, such as Windows 11 23H2 or Android 14.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      label: 问题描述 ‖ Problem Description
+      description: "请具体描述你的操作过程和你的问题，必要时需上传日志或者可以证明你的问题的任何材料（如图片，视频）。请不要询问我“xxx应该如何操作？”，这里只允许问题反馈，如果你需要技术支持，请前往我们的QQ群聊： 806312062 ‖ Please describe your operation process and your problem in detail. If necessary, upload a log or any materials (such as pictures and videos) that can prove your problem. Please don't ask me 'how should xxx operate?' Only question feedback is allowed here. If you need technical support, please go to our QQ group to chat: 806312062."
+      
