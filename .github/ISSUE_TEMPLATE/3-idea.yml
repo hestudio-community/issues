@@ -3,7 +3,9 @@ description: 用于报告你的想法 ‖ Used to Report Your Idea.
 title: "[IDEA]: "
 labels: ["feature"]
 body: 
-  - type: markdown
+  - type: textarea
     attributes:
       label: 新鲜想法 ‖ IDEA
       description: "请不要询问我“xxx应该如何操作？”，如果你需要技术支持，请前往我们的QQ群聊： 806312062 ‖ Please don't ask me 'how should xxx operate?' If you need technical support, please go to our QQ group to chat: 806312062."
+    validations:
+      required: true
